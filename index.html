@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intel: Sustainability Through the Ages</title>
+  <link id="bootstrap-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Header / Hero Section -->
   <header>
+    <button id="lang-toggle" aria-label="Switch to Arabic">AR</button>
     <div class="hero-content">
-      <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
       <img src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <!-- Main Heading -->
-      <h1>
+      <h1 data-en="Intel: Building a Sustainable Future" data-ar="إنتل: بناء مستقبل مستدام">
         Intel: Building a Sustainable Future
       </h1>
-
-      <!-- Subheading / Description -->
-      <p>
+      <p data-en="Explore Intel's journey through time, discovering how our commitment to innovation has shaped a more sustainable future for technology and our planet." data-ar="استكشف رحلة إنتل عبر الزمن، واكتشف كيف ساهم التزامنا بالابتكار في تشكيل مستقبل أكثر استدامة للتكنولوجيا وكوكبنا.">
         Explore Intel's journey through time, discovering how our commitment
         to innovation has shaped a more sustainable future for technology 
         and our planet.
@@ -27,6 +26,7 @@
     </div>
   </header>
 
+  <main>
   <!-- Timeline Cards Section -->
   <section class="timeline">
 
@@ -36,8 +36,8 @@
         <img src="img/1.jpg" alt="Intel founded in 1968" width="220" height="180" />
         <div class="image-overlay">
           <h2>1968</h2>
-          <h3>Intel Founded</h3>
-          <p>
+          <h3 data-en="Intel Founded" data-ar="تأسست إنتل">Intel Founded</h3>
+          <p data-en="Robert Noyce and Gordon Moore rename the newly formed company NM Electronics to Intel Corporation, laying the foundation for decades of technological innovation." data-ar="أعاد روبرت نويس وغوردون مور تسمية الشركة المؤسسة حديثاً من NM Electronics إلى إنتل، واضعين الأساس لعقود من الابتكار التكنولوجي.">
             Robert Noyce and Gordon Moore rename the newly formed company 
             NM Electronics to Intel Corporation, laying the foundation for 
             decades of technological innovation.
@@ -52,8 +52,8 @@
         <img src="img/2.jpg" alt="Intel first microprocessor in 1971" width="220" height="180" />
         <div class="image-overlay">
           <h2>1971</h2>
-          <h3>First Microprocessor</h3>
-          <p>
+          <h3 data-en="First Microprocessor" data-ar="أول معالج دقيق">First Microprocessor</h3>
+          <p data-en="Intel debuts the 4004, the world's first commercial microprocessor, igniting the microprocessor revolution and propelling the future of computing devices." data-ar="أطلقت إنتل معالج 4004، أول معالج تجاري في العالم، مما أشعل ثورة المعالجات الدقيقة ودفع مستقبل أجهزة الحوسبة.">
             Intel debuts the 4004, the world's first commercial microprocessor, 
             igniting the microprocessor revolution and propelling the future 
             of computing devices.
@@ -68,8 +68,8 @@
         <img src="img/3.jpg" alt="Intel 8086 processor in 1978" width="220" height="180" />
         <div class="image-overlay">
           <h2>1978</h2>
-          <h3>8086 Processor</h3>
-          <p>
+          <h3 data-en="8086 Processor" data-ar="معالج 8086">8086 Processor</h3>
+          <p data-en="Launch of the 8086 processor, establishing the x86 architecture that drives countless PCs and servers in the modern era." data-ar="إطلاق معالج 8086، الذي أسس بنية x86 التي تشغّل أعداداً هائلة من أجهزة الكمبيوتر والخوادم في العصر الحديث.">
             Launch of the 8086 processor, establishing the x86 architecture 
             that drives countless PCs and servers in the modern era.
           </p>
@@ -83,8 +83,8 @@
         <img src="img/4.jpg" alt="Intel 386 processor in 1985" width="220" height="180" />
         <div class="image-overlay">
           <h2>1985</h2>
-          <h3>386 Processor</h3>
-          <p>
+          <h3 data-en="386 Processor" data-ar="معالج 386">386 Processor</h3>
+          <p data-en="Intel introduces the 386 processor with 32-bit architecture, ushering in a new era of performance and multitasking for personal computers." data-ar="قدّمت إنتل معالج 386 بمعمارية 32 بت، لتفتح عصراً جديداً من الأداء وتعدد المهام لأجهزة الكمبيوتر الشخصية.">
             Intel introduces the 386 processor with 32-bit architecture, 
             ushering in a new era of performance and multitasking for 
             personal computers.
@@ -99,8 +99,8 @@
         <img src="img/2006.jpg" alt="Intel peak GHG emissions in 2006" width="220" height="180" />
         <div class="image-overlay">
           <h2>2006</h2>
-          <h3>Peak GHG Emissions</h3>
-          <p>
+          <h3 data-en="Peak GHG Emissions" data-ar="ذروة انبعاثات الغازات الدفيئة">Peak GHG Emissions</h3>
+          <p data-en="This year marks Intel's highest annual greenhouse gas emissions for operations. Over subsequent years, Intel invests heavily in chemical abatement, renewable energy, and energy-efficient manufacturing to reverse this trend." data-ar="شهد هذا العام أعلى مستوى سنوي لانبعاثات الغازات الدفيئة في عمليات إنتل. وفي السنوات التالية، استثمرت إنتل بكثافة في معالجة الانبعاثات الكيميائية والطاقة المتجددة والتصنيع الموفر للطاقة لعكس هذا الاتجاه.">
             This year marks Intel's highest annual greenhouse gas emissions 
             for operations. Over subsequent years, Intel invests heavily in 
             chemical abatement, renewable energy, and energy-efficient 
@@ -116,8 +116,8 @@
         <img src="img/2020-intel.jpg" alt="Intel RISE strategy in 2020" width="220" height="180" />
         <div class="image-overlay">
           <h2>2020</h2>
-          <h3>RISE Strategy</h3>
-          <p>
+          <h3 data-en="RISE Strategy" data-ar="استراتيجية RISE">RISE Strategy</h3>
+          <p data-en="Intel launches its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy and 2030 goals, aiming to drive industry-wide progress on climate action, water stewardship, and waste reduction." data-ar="أطلقت إنتل استراتيجية RISE (المسؤولة والشاملة والمستدامة والممكِّنة) وأهداف عام 2030، بهدف دفع التقدم على مستوى الصناعة في مجال العمل المناخي وإدارة المياه والحد من النفايات.">
             Intel launches its RISE (Responsible, Inclusive, Sustainable, 
             Enabling) strategy and 2030 goals, aiming to drive industry-wide 
             progress on climate action, water stewardship, and waste reduction.
@@ -132,8 +132,8 @@
         <img src="img/2022-intel.jpg" alt="Intel net-zero commitment in 2022" width="220" height="180" />
         <div class="image-overlay">
           <h2>2022</h2>
-          <h3>Net-Zero By 2040</h3>
-          <p>
+          <h3 data-en="Net-Zero By 2040" data-ar="الحياد الكربوني بحلول 2040">Net-Zero By 2040</h3>
+          <p data-en="Intel announces its commitment to achieve net-zero greenhouse gas emissions (Scope 1 and 2) across its global operations by 2040, building on years of environmental initiatives." data-ar="أعلنت إنتل التزامها بتحقيق صافي انبعاثات صفري للغازات الدفيئة (النطاقان 1 و2) عبر عملياتها العالمية بحلول عام 2040، بناءً على سنوات من المبادرات البيئية.">
             Intel announces its commitment to achieve net-zero greenhouse 
             gas emissions (Scope 1 and 2) across its global operations 
             by 2040, building on years of environmental initiatives.
@@ -148,8 +148,8 @@
         <img src="img/2023-intel.jpg" alt="Intel renewable electricity in 2023" width="220" height="180" />
         <div class="image-overlay">
           <h2>2023</h2>
-          <h3>Renewable Electricity</h3>
-          <p>
+          <h3 data-en="Renewable Electricity" data-ar="الكهرباء المتجددة">Renewable Electricity</h3>
+          <p data-en="The company achieves 99% renewable electricity usage worldwide, helping to drastically lower carbon emissions and driving progress toward Intel's long-term sustainability goals." data-ar="حققت الشركة استخدام 99% من الكهرباء المتجددة عالمياً، مما ساعد على خفض الانبعاثات الكربونية بشكل كبير ودفع التقدم نحو أهداف إنتل طويلة المدى للاستدامة.">
             The company achieves 99% renewable electricity usage worldwide, 
             helping to drastically lower carbon emissions and driving progress 
             toward Intel's long-term sustainability goals.
@@ -164,8 +164,8 @@
         <img src="img/2024-intel.jpg" alt="Intel sustainability summit in 2024" width="220" height="180" />
         <div class="image-overlay">
           <h2>2024</h2>
-          <h3>Sustainability Summit</h3>
-          <p>
+          <h3 data-en="Sustainability Summit" data-ar="قمة الاستدامة">Sustainability Summit</h3>
+          <p data-en="Intel hosts its first Sustainability Summit, uniting suppliers, government officials, and industry leaders to collaborate on next-generation sustainable semiconductor manufacturing." data-ar="استضافت إنتل أول قمة استدامة لها، جامعة الموردين والمسؤولين الحكوميين وقادة الصناعة للتعاون في تصنيع أشباه الموصلات المستدامة للجيل القادم.">
             Intel hosts its first Sustainability Summit, uniting suppliers, 
             government officials, and industry leaders to collaborate on 
             next-generation sustainable semiconductor manufacturing.
@@ -174,6 +174,135 @@
       </div>
     </article>
   </section>
-  <p class="timeline-note">Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <section class="mt-5 mb-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <article>
+            <h2><i class="bi bi-droplet-fill fs-1" aria-hidden="true"></i> <span data-en="Water &amp; Waste" data-ar="المياه والنفايات">Water &amp; Waste</span></h2>
+            <p data-en="Intel focuses on reducing water use and improving waste management across its operations to support more responsible manufacturing." data-ar="تركز إنتل على تقليل استخدام المياه وتحسين إدارة النفايات في عملياتها لدعم تصنيع أكثر مسؤولية.">Intel focuses on reducing water use and improving waste management across its operations to support more responsible manufacturing.</p>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#waterModal" data-en="Learn More" data-ar="تعلم أكثر">Learn More</button>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article>
+            <h2><i class="bi bi-globe fs-1" aria-hidden="true"></i> <span data-en="Commitment" data-ar="الالتزام">Commitment</span></h2>
+            <p data-en="Intel continues to strengthen its environmental goals through measurable action, long-term planning, and collaboration with partners worldwide." data-ar="تواصل إنتل تعزيز أهدافها البيئية من خلال إجراءات قابلة للقياس، وتخطيط طويل المدى، وتعاون مع شركاء حول العالم.">Intel continues to strengthen its environmental goals through measurable action, long-term planning, and collaboration with partners worldwide.</p>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#commitmentModal" data-en="Learn More" data-ar="تعلم أكثر">Learn More</button>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article>
+            <h2><i class="bi bi-bar-chart fs-1" aria-hidden="true"></i> <span data-en="RISE Strategy" data-ar="استراتيجية RISE">RISE Strategy</span></h2>
+            <p data-en="Intel's RISE approach connects sustainability with innovation, helping advance climate action, resource stewardship, and inclusive progress." data-ar="يربط نهج RISE من إنتل بين الاستدامة والابتكار، مما يساعد على دفع العمل المناخي وإدارة الموارد والتقدم الشامل.">Intel's RISE approach connects sustainability with innovation, helping advance climate action, resource stewardship, and inclusive progress.</p>
+            <button type="button" class="btn btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#riseModal" data-en="Learn More" data-ar="تعلم أكثر">Learn More</button>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learn More Modals -->
+  <div class="modal fade" id="waterModal" tabindex="-1" aria-labelledby="waterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="waterModalLabel" data-en="Water &amp; Waste" data-ar="المياه والنفايات">Water &amp; Waste</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p data-en="Since 2022, Intel has targeted net positive water use, restoring more water to local watersheds than it consumes. The company partners with local communities to reclaim water, and works throughout its supply chain to reduce waste and encourage circular economy practices." data-ar="منذ عام 2022، تستهدف إنتل تحقيق استخدام مائي إيجابي صافٍ، بحيث تعيد إلى الأحواض المائية المحلية كمية مياه أكبر مما تستهلكه. تتعاون الشركة مع المجتمعات المحلية لاستصلاح المياه، وتعمل على مستوى سلسلة التوريد لتقليل النفايات وتشجيع ممارسات الاقتصاد الدائري.">Since 2022, Intel has targeted net positive water use, restoring more water to local watersheds than it consumes. The company partners with local communities to reclaim water, and works throughout its supply chain to reduce waste and encourage circular economy practices.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-en="Close" data-ar="إغلاق">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="commitmentModal" tabindex="-1" aria-labelledby="commitmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="commitmentModalLabel" data-en="Commitment" data-ar="الالتزام">Commitment</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p data-en="Intel set 2030 goals across its RISE strategy, spanning climate action, water stewardship, and waste reduction. The company works with industry-wide coalitions and suppliers to hold itself accountable to measurable, publicly reported targets." data-ar="حددت إنتل أهدافاً لعام 2030 ضمن استراتيجية RISE، تشمل العمل المناخي وإدارة المياه والحد من النفايات. تعمل الشركة مع تحالفات على مستوى الصناعة وموردين لضمان مساءلتها أمام أهداف قابلة للقياس ومُعلنة للجمهور.">Intel set 2030 goals across its RISE strategy, spanning climate action, water stewardship, and waste reduction. The company works with industry-wide coalitions and suppliers to hold itself accountable to measurable, publicly reported targets.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-en="Close" data-ar="إغلاق">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="riseModal" tabindex="-1" aria-labelledby="riseModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="riseModalLabel" data-en="RISE Strategy" data-ar="استراتيجية RISE">RISE Strategy</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p data-en="RISE stands for Responsible, Inclusive, Sustainable, and Enabling. Launched in 2020, it connects Intel's environmental commitments with its role in advancing technology access and inclusive growth across the communities where it operates." data-ar="تعني RISE المسؤولة والشاملة والمستدامة والممكِّنة. أُطلقت هذه الاستراتيجية عام 2020، وتربط التزامات إنتل البيئية بدورها في تعزيز الوصول إلى التكنولوجيا والنمو الشامل في المجتمعات التي تعمل فيها.">RISE stands for Responsible, Inclusive, Sustainable, and Enabling. Launched in 2020, it connects Intel's environmental commitments with its role in advancing technology access and inclusive growth across the communities where it operates.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-en="Close" data-ar="إغلاق">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="timeline-note" data-en="Scroll to view timeline | Hover over cards to learn more!" data-ar="مرر لعرض الجدول الزمني | مرر الفأرة فوق البطاقات لمعرفة المزيد!">Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <section class="newsletter-section">
+    <form class="container mt-5 mb-5" aria-label="Sustainability Newsletter Signup">
+      <label for="newsletter-email" class="form-label mb-3" data-en="Sign up for our sustainability newsletter" data-ar="اشترك في نشرتنا الإخبارية للاستدامة">Sign up for our sustainability newsletter</label>
+      <div class="d-flex flex-column flex-md-row gap-2">
+        <input type="email" id="newsletter-email" name="email" class="form-control" required>
+        <button type="submit" class="btn btn-primary" data-en="Subscribe" data-ar="يشترك">Subscribe</button>
+      </div>
+    </form>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p data-en="© 2025 Intel Corporation. All rights reserved." data-ar="© ٢٠٢٥ شركة إنتل. جميع الحقوق محفوظة.">© 2025 Intel Corporation. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('lang-toggle');
+      let currentLang = 'en';
+
+      const bootstrapCss = document.getElementById('bootstrap-css');
+      const BOOTSTRAP_LTR_URL = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css';
+      const BOOTSTRAP_RTL_URL = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css';
+
+      toggleBtn.addEventListener('click', function () {
+        const newLang = currentLang === 'en' ? 'ar' : 'en';
+
+        document.querySelectorAll('[data-en]').forEach(function (el) {
+          el.textContent = el.getAttribute('data-' + newLang);
+        });
+
+        document.documentElement.lang = newLang;
+        document.documentElement.dir = newLang === 'ar' ? 'rtl' : 'ltr';
+        bootstrapCss.href = newLang === 'ar' ? BOOTSTRAP_RTL_URL : BOOTSTRAP_LTR_URL;
+
+        toggleBtn.textContent = newLang === 'ar' ? 'EN' : 'AR';
+        toggleBtn.setAttribute(
+          'aria-label',
+          newLang === 'ar' ? 'Switch to English' : 'Switch to Arabic'
+        );
+
+        currentLang = newLang;
+      });
+    });
+  </script>
 </body>
 </html>
